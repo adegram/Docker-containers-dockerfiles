@@ -15,21 +15,9 @@ The API Gateway communicates with the other services, while the Order Service co
 
 `Docker` · `Docker Compose` · `Node.js` · `Microservices`
 
-## Project Structure
-
-```text
-ministore-microservices/
-├── services/
-│   ├── api-gateway/
-│   ├── product-service/
-│   ├── order-service/
-│   └── notification-service/
-└── docker-compose.yml
-```
-
 ## Usage
 
-Make sure Docker and Docker Compose are installed, then run:
+Make sure Docker is installed, then run:
 
 ```bash
 docker compose up --build
@@ -56,7 +44,7 @@ docker compose down
 | Order Service | `3002` |
 | Notification Service | `3003` |
 
-The API Gateway is the main entry point for requests.
+The API Gateway is the main entry point for requests from users.
 
 ## Service Communication
 
